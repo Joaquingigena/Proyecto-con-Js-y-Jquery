@@ -1,0 +1,237 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.clear{
+    float: none;
+    clear: both;
+}
+
+
+#global{
+    width: 85%;
+    background: white;
+    margin: 0px auto;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+
+#logo{
+    font-family: Verdana, Arial;
+    font-size: 25px;
+    letter-spacing: 4px;
+    line-height: 80px;
+    text-align: center;
+    color: white;
+    
+    width: 400px;
+    height: 80px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+#menu{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #333;
+    width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+
+#menu ul{
+    line-height: 46px;
+    list-style: none;
+
+}
+
+#menu ul li{
+    line-height: 46px;
+    display: inline-block;
+    transition: all 300ms;
+}
+
+
+#menu ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+
+#posts{
+    width: 60%;
+    float: left;
+    font-family:sans-serif,Arial;
+}
+
+.post h3{
+    font-size: 25px;
+    color: #333;
+}
+
+.post .date{
+    color:gray;
+    display: block;
+    margin-top: 5px;
+}
+
+.post p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 22px;
+    text-align: justify;
+
+}
+
+.boton{
+    padding: 15px;
+   
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    display: block;
+    width: 70px;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.slider{
+    font-family: sans-serif,arial;
+    width: 30%;
+    float: right;
+}
+
+.slider h4{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 10px;
+    color: #333;
+}
+
+.slider img{
+    width: 100%;
+}
+
+.slider p{
+    font-size: 15px;
+    text-align: justify;
+}
+
+.txt{
+    padding: 5px;
+    border-radius: 2px;
+    border: solid 1px #ccc;
+    width: 80%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+
+}
+
+.btn
+{
+    background-color: #ccc;
+    padding: 10px;
+    border: 1px solid #333;
+    cursor: pointer;
+}
+
+footer{
+    font-family: sans-serif,Arial ;
+    color:white;
+    height: 50px;
+    background: rgba(51, 51,51,0.70);
+    margin: 0px auto;
+    width: 65%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    line-height: 47px;
+}
+
+/* Selecciono las clases que vienen con el slider y le seteo la altura */
+.bx-wrapper,.bx-viewport{
+    height: 250px !important;
+}
+
+#cambiar-tema{
+    position: fixed;
+    top: 40%;
+    background: rgb(51, 51,51,0.5);
+    width: 50px;
+    height: 100px;
+    cursor: pointer;
+}
+
+#red, #green, #blue{
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+    display: block;
+    margin:0px auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#red{
+  background-color:   rgb(128, 41, 0);
+}
+#green{
+    background-color: green;
+}
+#blue{
+    background-color: rgb(0, 66, 128);
+}
+
+/* Scroll hacia arriba */
+#subir{
+    color: white;
+    text-decoration: none;
+    display: block;
+    float: right;
+}
+
+/* Acordeon */
+#box{
+    width: 65%;
+    float: left;
+    margin-top: 30px;
+}
+
+/* reloj */
+#reloj{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    border: 5px solid #333;
+    width: 30%;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+/* Formulario de contacto */
+#form-contacto{
+    width: 50%;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#form-contacto label{
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+}
+#form-contacto input{
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+}
+

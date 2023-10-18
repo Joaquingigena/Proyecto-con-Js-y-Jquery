@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- Estilos -->
+    <link rel="stylesheet" href="css/Estilos.css">
+    <link id="tema" rel="stylesheet" href="css/green.css">
+
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+
+   
+    <!-- Plugin slider -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    
+    <!-- Mi js -->
+    <script src="js/Main.js"></script>
+
+    <title>Proyecto con JavaScript</title>
+</head>
+<body>
+
+    <!-- Botones para cambiar el tema  -->
+    <div id="cambiar-tema">
+        <div id="red"></div>
+        <div id="blue"></div>
+        <div id="green"></div>
+
+    </div>
+
+
+
+    <section id="global">
+
+        <!-- Cabecera -->
+       <header>
+            <div id="logo">
+                <h1>Proyecto con Js</h1>
+            </div>
+            <div class="clear">
+
+            </div>
+
+            <nav id="menu">
+                <ul >
+                    <li><a href="index.html">Menu</a></li>
+                    <li><a href="sobremi.html">Sobre mi</a></li>
+                    <li><a href="reloj.html">Reloj</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+
+       </header>
+       
+       <!-- Slider -->
+       <div id="slider">
+        <div class="galeria">
+            <div><img src="img/hojas.jpg" title="hojas" /></div>
+            <div><img src="img/cielo.jpg" title="Cielo" /></div>
+            <div><img src="img/rojo.jpg" title="Rojo" /></div>
+          </div>
+       </div>
+
+       <!-- Contenido  -->
+       <section id="content">
+        <div id="posts">
+           
+        </div>
+        <aside class="slider">
+            <div id="about">
+                <h4>Quien soy?</h4>
+                <img src="img/caracol.jpg" alt="">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam fuga illum fugit? Sed voluptas perspiciatis ullam tempora magnam non suscipit minima est similique ipsam fugit et, exercitationem a rem. Ullam.</p>
+            </div>
+
+            <div id="login">
+                <br>
+                <h3><span>Identificarse</span></h3>
+                <form >
+                    <div>
+                        <label >Nombre</label>
+                        <input type="text" name="nombre" class="txt" id="txtNombre">
+
+                    </div>
+                    <div>
+                        <label >Email</label>
+                        <input type="email" name="email" class="txt">
+                    </div>
+                    
+                    <div>
+                        <label >Contraseña</label>
+                        <input type="password" name="contraseña" class="txt">
+                    </div>
+
+                    
+
+                    <input type="submit" value="Ingresar" class="btn">
+                </form>
+            </div>
+
+        </aside>
+        
+     
+        
+        <div class="clear"></div>
+       </section>
+
+    </section>
+    
+    <footer>
+        Master en js
+
+        <a href="" id="subir">Ir arriba </a>
+    </footer>
+</body>
+</html>

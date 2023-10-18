@@ -1,0 +1,20 @@
+body{
+    /* Pongo imagen de fondo */
+    background-image: url("../img/hojas.jpg");
+
+    /* Para que no se termine la imagen */
+    background-attachment: fixed;
+}
+
+#logo{
+    background-color: green;
+ 
+}
+#menu ul li:hover{
+    background-color: green;
+}
+
+.boton{
+    background: green;
+    
+}

@@ -1,0 +1,20 @@
+body{
+    /* Pongo imagen de fondo */
+    background-image: url("../img/cielo.jpg");
+
+    /* Para que no se termine la imagen */
+    background-attachment: fixed;
+}
+
+#logo{
+    background-color:rgb(0, 66, 128);
+ 
+}
+#menu ul li:hover{
+    background-color: rgb(0, 66, 128);
+}
+
+.boton{
+    background: rgb(0, 66, 128);
+    
+}
